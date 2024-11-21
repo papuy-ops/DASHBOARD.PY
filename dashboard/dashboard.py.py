@@ -24,10 +24,10 @@ Original file is located at
 ### Gathering Data
 """
 
-day_df=pd.read_csv('/content/day.csv')
+day_df=pd.read_csv('/datasets/day.csv')
 day_df.head(5)
 
-hour_df=pd.read_csv('/content/hour.csv')
+hour_df=pd.read_csv('/datasets/hour.csv')
 hour_df.head()
 
 day_df=pd.read_csv('/content/day.csv')
